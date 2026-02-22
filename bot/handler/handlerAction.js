@@ -45,7 +45,7 @@ module.exports = (api, threadModel, userModel, globalModel, usersData, threadsDa
 				break;
 			case "message_reaction":
 				onReaction();
-				if (event.reaction == "😠") {
+				if (event.reaction == "👍") {
 					message.unsend(event.messageID)
 				}
 
